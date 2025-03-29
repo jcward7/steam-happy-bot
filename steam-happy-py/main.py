@@ -10,7 +10,9 @@ BOT_GUILD = data['guildId']
 
 class MyClient(discord.Client):
     async def on_ready(self):
+        print(f'------')
         print(f'Logged on as {self.user}!')
+        print(f'------')
     
     async def on_message(self, message):
         if message.author.id == client.user.id:
