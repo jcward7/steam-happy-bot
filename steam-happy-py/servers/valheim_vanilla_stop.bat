@@ -1,0 +1,1 @@
+taskkill /F /IM "valheim_server.exe"
